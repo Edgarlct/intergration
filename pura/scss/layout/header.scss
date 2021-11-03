@@ -1,0 +1,84 @@
+header{
+  height: 85vh;
+  position: relative;
+  background-image: url("../asset/background-image.png");
+  background-size: cover;
+  background-position: top;
+
+  .overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: $overlay_color;
+  }
+  .logo{
+    position: absolute;
+    top: 35px;
+    left: 30px;
+  }
+  nav{
+    height: 10%;
+    position: relative;
+    z-index: 1;
+    margin: 0 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    a{
+      color: white;
+      font-weight: 200;
+    }
+
+    ul{
+      display: flex;
+      flex-direction: row;
+      a{
+        margin-right: 30px;
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+
+    .reseaux{
+      position: absolute;
+      right: 0px;
+      a{
+        margin-right: 16px;
+
+      }
+    }
+  }
+  .textPresentaion{
+    height: 90%;
+    position: relative;
+    z-index: 1;
+    @include flex-center;
+    flex-direction: column;
+    color: white;
+    p{
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+    h1{
+      font-size: 50px;
+      font-weight: 800;
+      line-height: 60px;
+      text-align: center;
+      margin-bottom: 90px;
+    }
+  }
+}
+
+.btnDiscover{
+  width: 180px;
+  height: 57px;
+  background: $gradian;
+  @include flex-center;
+  span{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

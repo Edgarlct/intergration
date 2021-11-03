@@ -1,0 +1,32 @@
+.process{
+  display: flex;
+  justify-content: space-between;
+
+  .processCard{
+    width: 400px;
+    height: 326px;
+    @include justify-center;
+    flex-direction: column;
+
+    .number{
+      font-size: 120px;
+      font-weight: 800;
+      color: $light_pink;
+      position: absolute;
+      z-index: -1;
+    }
+
+    h2{
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      color: $gray;
+    }
+    
+    p{
+      color: $gray;
+      font-size: 16px;
+      line-height: 18px;
+    }
+  }
+}

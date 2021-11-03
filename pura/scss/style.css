@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  height: 85vh;
+  position: relative;
+  background-image: url("../asset/background-image.png");
+  background-size: cover;
+  background-position: top;
+}
+header .overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+header .logo {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+}
+header nav {
+  height: 10%;
+  position: relative;
+  z-index: 1;
+  margin: 0 135px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+header nav a {
+  color: white;
+  font-weight: 200;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+}
+header nav ul a {
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 16px;
+}
+header nav .reseaux {
+  position: absolute;
+  right: 0px;
+}
+header nav .reseaux a {
+  margin-right: 16px;
+}
+header .textPresentaion {
+  height: 90%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+header .textPresentaion p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+header .textPresentaion h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.btnDiscover {
+  width: 180px;
+  height: 57px;
+  background: linear-gradient(45deg, #fd3fb3, #fd3f81, #fd3e4f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnDiscover span {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.about {
+  height: 490px;
+  background: linear-gradient(45deg, #fd3fb3, #fd3f81, #fd3e4f);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.about h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 75px;
+}
+.about p {
+  font-size: 35px;
+  font-weight: 200;
+  margin-bottom: 32px;
+}
+.about .linkPorfolio {
+  width: 200px;
+  height: 60px;
+  border: solid 2px white;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  right: 0;
+}
+.about div:last-of-type {
+  display: flex;
+  justify-content: end;
+}
+
+.process {
+  display: flex;
+  justify-content: space-between;
+}
+.process .processCard {
+  width: 400px;
+  height: 326px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.process .processCard .number {
+  font-size: 120px;
+  font-weight: 800;
+  color: #ffe2e9;
+  position: absolute;
+  z-index: -1;
+}
+.process .processCard h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #5c5c5c;
+}
+.process .processCard p {
+  color: #5c5c5c;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, a {
+  font-family: Poppins;
+}
+
+section {
+  padding: 0 135px;
+}
+
+/*# sourceMappingURL=style.css.map */

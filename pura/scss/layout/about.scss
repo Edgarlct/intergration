@@ -1,0 +1,35 @@
+.about{
+  height: 490px;
+  background: $gradian;
+  @include justify-center;
+  flex-direction: column;
+  color: white;
+  h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 75px;
+  }
+  p{
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 32px;
+  }
+  .linkPorfolio{
+    width: 200px;
+    height: 60px;
+    border: solid 2px white;
+    border-radius: 30px;
+    @include flex-center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+    position: relative;
+    right: 0;
+  }
+  div:last-of-type{
+    display: flex;
+    justify-content: end;
+  }
+}
