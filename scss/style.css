@@ -242,6 +242,48 @@ header .textPresentaion h1 {
   bottom: 50%;
 }
 
+.feature {
+  height: 700px;
+  background-color: #222222;
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  column-gap: 13px;
+  grid-template-rows: repeat(2, 200px);
+  row-gap: 50px;
+  align-content: center;
+}
+.feature h2 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 800;
+  color: white;
+  margin: 24px 0;
+  margin: 24px 0;
+}
+.feature h2 span {
+  color: #fd3e4f;
+}
+.feature p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: white;
+}
+.feature .explication {
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+.feature .detail p {
+  font-size: 14px;
+}
+.feature .detail p:first-of-type {
+  font-size: 20px;
+  font-weight: 600;
+}
+.feature .detail img {
+  margin-bottom: 24px;
+}
+
 a {
   text-decoration: none;
 }

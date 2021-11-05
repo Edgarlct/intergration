@@ -1,0 +1,48 @@
+.feature{
+  height: 700px;
+  background-color: #222222;
+
+  display: grid;
+  grid-template-columns: repeat(3, 370px);
+  column-gap: 13px;
+  grid-template-rows: repeat(2, 200px);
+  row-gap: 50px;
+  align-content: center;
+
+  h2{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 800;
+    color: white;
+    span{
+      color: $red_gradian;
+    }
+
+    margin: 24px 0;
+    margin: 24px 0;
+  }
+  p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 30px;
+    color: white;
+  }
+
+  .explication{
+    grid-column: 1;
+    grid-row: 1/-1;
+  }
+
+  .detail{
+    p{
+      font-size: 14px;
+      &:first-of-type{
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    img{
+      margin-bottom: 24px;
+    }
+  }
+}
