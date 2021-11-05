@@ -202,6 +202,46 @@ header .textPresentaion h1 {
   line-height: 18px;
 }
 
+.possibilites {
+  height: 760px;
+  position: relative;
+  display: flex;
+  background-color: #f4f4f4;
+}
+.possibilites .textLeft {
+  height: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  position: relative;
+  left: 0px;
+}
+.possibilites .textLeft h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+  margin-bottom: 70px;
+}
+.possibilites .textLeft h2 span {
+  color: #fd3e4f;
+}
+.possibilites .textLeft p {
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 30px;
+  color: #5c5c5c;
+}
+.possibilites .textLeft p:first-of-type {
+  margin-bottom: 35px;
+}
+.possibilites img {
+  position: absolute;
+  transform: translate(0%, 50%);
+  right: 0;
+  bottom: 50%;
+}
+
 a {
   text-decoration: none;
 }
